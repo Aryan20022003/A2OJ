@@ -25,7 +25,7 @@ const CodeEditor = () => {
   function submitCode(e) {
     console.log("Clicked");
     axios
-      .post("http://localhost:3500/run", {
+      .post("https://glamorous-sunglasses-toad.cyclic.app/run", {
         code: code,
         input: input,
       })
